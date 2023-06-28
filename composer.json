@@ -1,0 +1,26 @@
+{
+    "name": "usuario1/pruebaphp",
+    "description": "...",
+    "license": "LTS",
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "./scripts",
+                "./scripts/pais/",
+                "./scripts/departamento/",
+                "./scripts/region/",
+                "./scripts/campers/",
+                "./scripts/db/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Cittis",
+            "email": "aplicacion@cittis.com.co"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
